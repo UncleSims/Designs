@@ -3,6 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './fonts/archive/Gilroy-Black.ttf';
+import './fonts/archive/Gilroy-Regular.ttf';
+import './fonts/archive/Gilroy-Medium.ttf';
+import './fonts/archive/Gilroy-Light.ttf';
+import './fonts/archive/Gilroy-Bold.ttf';
+import './fonts/archive/Gilroy-SemiBold.ttf';
 
 ReactDOM.render(
   <React.StrictMode>

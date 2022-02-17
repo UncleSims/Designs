@@ -1,13 +1,71 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: local("Gilroy-Bold") url(./fonts/archive/Gilroy-Bold.ttf) format("truetype");
 }
+* {
+  margin: 0;
+  font-family: "Gilroy-Bold";
+  color: #24272A;
+}
+.navbar {
+position: relative;
+width: 100%;
+height: 60px;
+left: 0px;
+top: 0px;
+}
+.btn {
+position: absolute;
+width: 76px;
+height: 34px;
+top: 13px;
+right: 4%;
+Padding: 8px, 16px, 8px, 16px;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 6px;
+border-width: medium;
+font-size: 14px;
+font-weight: bold;
+background: #FFFDFD;
+}
+.vtr {
+  position: absolute;
+left: 1.82%;
+right: 96.91%;
+top: 25.37%;
+bottom: 44.01%;
+border-radius: 0px;
+}
+.vtr1 {
+  position: absolute;
+left: 1.82%;
+right: 97.25%;
+top: 48%;
+bottom: 27.95%;
+color: #F2D771;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.vtr2 {
+position: absolute;
+left: 2.80%;
+right: 96.23%;
+top: 25.37%;
+bottom: 52%;
+}
+.vtr3 {position: absolute;
+left: 2.45%;
+right: 96.26%;
+top: 41.70%;
+bottom: 27.94%;
+}
+.vtrlayer {
+position: absolute;
+left: 1.74%;
+right: 96.15%;
+top: 23.33%;
+bottom: 25.91%;
+border-color: #020202;
+border-width: thick;
+box-shadow:  #020202;
 }
