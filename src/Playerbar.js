@@ -1,26 +1,31 @@
 import audiobar1 from './playericons/audiobar1.svg';
-import audioslider from './playericons/audioslider.svg';
-import foward from './playericons/foward.svg';
-import fwd from './playericons/fwd.svg';
-import player from './playericons/player.svg';
-import timer from './playericons/timer.svg';
-import voldown from './playericons/voldown.svg';
-import volumebar from './playericons/volumebar.svg';
+import Timer from './Timer';
 import volup from './playericons/volup.svg';
+import circle from './playericons/circle.svg';
+import vol from './playericons/vol.svg';
+import design from './playericons/design.svg';
+import Volume from './Volume';
+import Rewind from './Rewind'
+import Forward from './Forward';
+import Player from './Player';
 
 const Playerbar = () => {
     return ( 
-       <div>
-<img className='audiobar' src={audiobar1} alt='Audiobar' />
-<img className='audioslider' src={audioslider} alt='Audiobar' />
-        <img className='foward' src={foward} alt='Audiobar' />
-        <img className='fwd' src={fwd} alt='Audiobar' />
-        <img className='player' src={player} alt='Audiobar' />
-        <img className='timer' src={timer} alt='Audiobar' /> 
-        <img className='voldown' src={voldown} alt='Audiobar' />
-        <img className='volumebar' src={volumebar} alt='Audiobar' />
-        <img className='volup' src={volup} alt='Audiobar' />
-       </div>
+       <footer className='container'>
+        <img className='audiobar' src={audiobar1} alt='Audiobar' />
+        <img className='design' src={design} alt='design' />
+        {/*<img className='timer' src={timer} alt='timer' />*/}
+        <img className='circle' src={circle} alt='circlevector' />
+        {/*<img className='timer1' src={timer} alt='timer1' />*/}
+        <img className='volup' src={volup} alt='volup' />
+        <img className='vol' src={vol} alt='vol' />
+        <Timer type="primary" />
+        <Timer type="tertiary" />
+        <Player />
+        <Volume />
+        <Rewind />
+        <Forward />
+       </footer>
      );
 }
  

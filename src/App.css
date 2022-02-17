@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Gilroy-Semi";
+   src: url("./fonts/Gilroy-Semi.ttf" ) format ("truetype") local("Gilroy-Semi");
+font-weight: normal; 
+}
+
+  .field-text2 {
+      font-family: "Gilroy-Semi";
+  }
