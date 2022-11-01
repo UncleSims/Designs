@@ -1,4 +1,5 @@
 This project is a one page design which i implemented during a one month training in react.
+HTML AND VANILLA CSS as well as react were used.
 <br/>
 Design was implemented with less than one month knowledge of Javascript or react.<br/>
 The react design, though created using react did not implement any functions.
